@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../utils/constants/color.dart';
+import '../../../../utils/constants/color.dart';
 import '../curved_edges/curved_edge_widget.dart';
 import 'circular_container.dart';
 
@@ -33,6 +33,8 @@ class TPrimaryHeaderContainer extends StatelessWidget {
                   right: -300,
                   child: TCircularContainer(
                       backgroundColor: TColors.textWhite.withOpacity(0.1))),
+
+              child,
             ],
           ),
         ),

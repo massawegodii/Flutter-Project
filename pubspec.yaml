@@ -19,7 +19,8 @@ dependencies:
   logger: ^2.0.1
   url_launcher: ^6.1.12
   flutter_native_splash: ^2.4.0
-  smooth_page_indicator: ^1.1.0  
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
 
   # Icons
   iconsax: ^0.0.8
@@ -37,11 +38,8 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.0
 
-
 flutter:
   uses-material-design: true
-
-
 
   #--------------- LOCAL ASSETS ------------------#
   assets:
@@ -56,9 +54,7 @@ flutter:
     - assets/icons/payment_methods/
     - assets/images/on_boarding_images/
 
-
-
-#--------------- LOCAL FONTS ------------------#
+  #--------------- LOCAL FONTS ------------------#
   fonts:
     - family: Poppins
       fonts:

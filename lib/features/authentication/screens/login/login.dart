@@ -4,8 +4,8 @@ import 'package:ecommerce_app/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../common/widget.login_signup/form_divider.dart';
-import '../../../../common/widget.login_signup/social_buton.dart';
+import '../../../../common/widget/login_signup/form_divider.dart';
+import '../../../../common/widget/login_signup/social_buton.dart';
 import 'widget/login_form.dart';
 import 'widget/login_header.dart';
 

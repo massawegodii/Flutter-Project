@@ -1,8 +1,9 @@
-import 'package:ecommerce_app/utils/constants/sizes.dart';
-import 'package:ecommerce_app/utils/device/device_utility.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+
+import '../../utils/constants/sizes.dart';
+import '../../utils/device/device_utility.dart';
 
 class TAppBar extends StatelessWidget implements PreferredSizeWidget {
   const TAppBar({
@@ -10,14 +11,14 @@ class TAppBar extends StatelessWidget implements PreferredSizeWidget {
     this.title,
     this.leadingIcon,
     this.actions,
+    this.showBarArrow = false,
     this.leadingOnPressed,
-    this.showBarArrow = true,
   });
 
   final Widget? title;
-  final bool showBarArrow;
   final IconData? leadingIcon;
   final List<Widget>? actions;
+  final bool showBarArrow;
   final VoidCallback? leadingOnPressed;
 
   @override
